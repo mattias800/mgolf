@@ -19,7 +19,7 @@ function App() {
         <ambientLight intensity={0.5} />
         <directionalLight position={[5, 5, 5]} intensity={1} castShadow />
 
-        <Physics debug>
+        <Physics>
           <group position={[5, 0, 0]}>
             <TestCourse />
           </group>
